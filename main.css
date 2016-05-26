@@ -1,0 +1,109 @@
+/* COLORS
+nav background: burgandy #5d3b39
+
+gold #b77b43
+tan #b1a820 rgb(177,162,128)
+light red #a93b3c
+red #8b2621
+*/
+
+
+/* FONTS
+
+Kreon - nav items
+Arapey - main content text
+*/
+
+
+body {
+	margin: 0;
+	font-family: Arapey, serif;
+	background: rgb(177,162,128);
+}
+
+
+/*-----NAVBAR STYLES-----*/
+
+nav#navBar {
+	background: #5d3b39;
+	width: 100%;
+/*	padding: 20px 0 10px 0;*/
+}
+
+img.navLogo {
+	width: 200px;
+}
+
+ul.navBarUL{
+	float: right;
+	padding: 15px 15px 0 0;
+}
+
+ul.navBarUL li {
+	display: inline-block;
+	list-style: none;
+	padding-bottom: 25px;
+}
+
+ul.navBarUL li a {
+	text-decoration: none;
+	color: #b77b43;
+	font-family: Kreon, serif;
+	font-size: 1.25rem;
+	padding: 5px 10px;
+}
+
+ul.navBarUL li a:hover {
+	color: rgb(177,162,128);
+}
+
+.navBarBar {
+	color: #b77b43;
+	font-family: Kreon, serif;
+	font-size: 1.25rem;
+}
+
+
+/*-------------------------*/
+
+/*temp stuff*/
+div#temp {
+	height: 480px;
+}
+
+
+
+
+/*-----FOOTER STYLES-----*/
+
+#footer {
+	background: #a93b3c;
+	padding: 10px 0 5px 0;
+
+}
+
+.footerCopyright {
+	font-family: Kreon, serif;
+	color: rgb(177,162,128);
+	font-size: .9rem;
+	text-align: center;
+}
+
+div#socialIcons {
+	width: 190px;
+	margin: 0 auto;
+
+}
+
+#footer div a img {
+	width: 50px;
+	padding: 0 5px;
+}
+
+p.footerCopyright {
+	margin: 5px 0;
+}
+
+
+
+
