@@ -1,0 +1,244 @@
+/*****************************
+NAV
+*****************************/
+
+nav#navBar {
+	background: #5d3b39;
+	width: 100%;
+/*	padding: 20px 0 10px 0;*/
+}
+
+img.navLogo {
+	width: 200px;
+}
+
+ul.navBarUL{
+	float: right;
+	padding: 15px 15px 0 0;
+}
+
+ul.navBarUL li {
+	display: inline-block;
+	list-style: none;
+	padding-bottom: 25px;
+}
+
+ul.navBarUL li a {
+	text-decoration: none;
+	color: #b77b43;
+	font-family: Kreon, serif;
+	font-size: 1.25rem;
+	padding: 5px 10px;
+}
+
+ul.navBarUL li a:hover {
+	color: rgb(177,162,128);
+}
+
+.navBarBar {
+	color: #b77b43;
+	font-family: Kreon, serif;
+	font-size: 1.25rem;
+}
+
+
+
+/*****************************
+GENERAL
+*****************************/
+
+body {
+	margin: 0;
+	font-family: Arapey, serif;
+	background: rgb(177,162,128);
+}
+
+
+/******************************
+IMAGE
+******************************/
+
+.beardSpeech {
+	transform: scaleX(-1);
+	float: right;
+	z-index: 1;
+	height: 710px;
+	width: 400px;
+}
+
+.bubble {
+	position: relative;
+	top: 100px;
+	left: 25%;
+	height: 400px;
+	width: 600px;
+	z-index: -1;
+	border-radius: 25px;
+}
+
+.watermark {
+	height: 300px;
+	width: 300px;
+	transform: scaleY(-1);
+	z-index: -100;
+	position: relative;
+}
+
+/******************************
+CONTACT FORM
+******************************/
+
+.box2 {
+	position: absolute;
+	bottom: 20%;
+	left: 28%;
+}
+
+.name {
+	color: white;
+	font-family: Kreon;
+}
+
+.email {
+	float: left;
+	color: white;
+	font-family: Kreon;
+}
+
+.messageBox {
+	float: left;
+	position: absolute;
+	left: 28%;
+	bottom: 3%;
+	color: white;
+	font-family: Kreon;
+	width: 420px;
+}
+
+#msg {
+	padding-right: 32.5%;
+	padding-bottom: 15%;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: white;
+}
+
+
+
+/******************************
+CONTACT BANNER
+******************************/
+
+.primary {
+	background-color: #8B2621;
+	padding-bottom: 10px;
+}
+
+.contactHead {
+	font-family: Kreon;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.contactDetails{
+	margin-top: 50px;
+	margin-left: 40px;
+	font-family: Kreon;
+	color: #d8d8d8;
+}
+
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 0 40px;
+	font-size: 0.9em;
+}
+
+.contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+	text-decoration: none;
+	color: #d8d8d8;
+	font-family: Kreon;
+}
+
+.contact-info li.phone a{
+	background-image: url('img/phoneicon.png');
+	background-color: #693838;
+	border-radius: 5px;
+	margin-right: 86%;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+.contact-info li.mail a {
+	background-image: url('img/mail_icon.png');
+	background-color: #693838;
+	border-radius: 5px;
+	margin-right: 86%;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+
+
+/*****************************
+FOOTER
+*****************************/
+
+#footer {
+	background: #a93b3c;
+	padding: 10px 0 5px 0;
+
+}
+
+.footerCopyright {
+	font-family: Kreon, serif;
+	color: rgb(177,162,128);
+	font-size: .9rem;
+	text-align: center;
+}
+
+div#socialIcons {
+	width: 190px;
+	margin: 0 auto;
+
+}
+
+#footer div a img {
+	width: 50px;
+	padding: 0 5px;
+}
+
+p.footerCopyright {
+	margin: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
