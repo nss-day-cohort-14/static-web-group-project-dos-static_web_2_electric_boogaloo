@@ -18,7 +18,7 @@ Arapey - main content text
 body {
 	margin: 0;
 	font-family: Arapey, serif;
-	background: rgb(177,162,128);
+	/*background: rgb(177,162,128);*/
 }
 
 
@@ -36,7 +36,7 @@ img.navLogo {
 
 ul.navBarUL{
 	float: right;
-	padding: 15px 15px 0 0;
+	padding: 31px 15px 0 0;
 }
 
 ul.navBarUL li {
@@ -66,10 +66,6 @@ ul.navBarUL li a:hover {
 
 /*-------------------------*/
 
-/*temp stuff*/
-div#temp {
-	height: 480px;
-}
 
 
 
