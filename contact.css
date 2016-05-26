@@ -58,12 +58,20 @@ body {
 IMAGE
 ******************************/
 
+.contFrame {
+	height: 200px;
+	width: 320px;
+	margin: 0 auto;
+	left: 36%;
+	position: relative;
+}
+
 .beardSpeech {
 	transform: scaleX(-1);
 	float: right;
 	z-index: 1;
-	height: 710px;
-	width: 400px;
+	height: 707px;
+	width: 370px;
 }
 
 .bubble {
@@ -90,7 +98,7 @@ CONTACT FORM
 
 .box2 {
 	position: absolute;
-	bottom: 20%;
+	top: 540px;
 	left: 28%;
 }
 
@@ -109,10 +117,10 @@ CONTACT FORM
 	float: left;
 	position: absolute;
 	left: 28%;
-	bottom: 3%;
+	top: 700px;
 	color: white;
 	font-family: Kreon;
-	width: 420px;
+	width: 400px;
 }
 
 #msg {
@@ -137,18 +145,14 @@ CONTACT BANNER
 ******************************/
 
 .primary {
-	background-color: #8B2621;
+	background-color: #a93b3c;
 	padding-bottom: 10px;
-}
-
-.contactHead {
-	font-family: Kreon;
-	margin-top: 20px;
-	text-align: center;
+	max-width: 100%
+	border-radius: 15px;
 }
 
 .contactDetails{
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 	margin-left: 40px;
 	font-family: Kreon;
 	color: #d8d8d8;
@@ -177,16 +181,18 @@ CONTACT BANNER
 	background-image: url('img/phoneicon.png');
 	background-color: #693838;
 	border-radius: 5px;
-	margin-right: 86%;
+	margin-right: 85%;
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+	max-width: 100%
 }
 
 .contact-info li.mail a {
 	background-image: url('img/mail_icon.png');
 	background-color: #693838;
 	border-radius: 5px;
-	margin-right: 86%;
+	margin-right: 85%;
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+	max-width: 100%;
 }
 
 
@@ -198,7 +204,7 @@ FOOTER
 #footer {
 	background: #a93b3c;
 	padding: 10px 0 5px 0;
-
+	z-index: 1000;
 }
 
 .footerCopyright {
